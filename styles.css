@@ -1,0 +1,68 @@
+:root {
+    background:  rgb(95, 88, 102) url("pexels-lucie-liz-3165335.jpg") no-repeat fixed center; /* set bg-color and img */
+    background-blend-mode:screen; /* blend mode to screen*/
+
+   
+}
+body {                                         
+    color:azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#title,
+#description {
+    text-align: center;
+}
+
+
+
+form {   
+    background-color:rgba(32, 24, 39, 0.8);
+    max-width:600px;
+    min-width:200px;
+    margin:20px auto;
+    border:none;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+   
+label {
+    display:block;
+    font-size: 1.4em;
+   
+}
+
+fieldset {
+    border: none;
+    margin:20px 40px;
+}
+
+button {
+    display: block;
+    background-color: rgb(123, 13, 187);
+    width:85%;
+    height:49px;
+    margin:auto;
+    color:azure;
+    font-size:1.5em;
+}
+
+button:hover {background-color: rgba(152, 88, 212, 0.404);}
+button:active {background-color:rgba(32, 24, 39, 0.8)}
+
+.footer-box {
+    display:flex;
+    width:auto;   
+    padding:5px 15px;
+    background-color:rgba(32, 24, 39, 0.8);
+    position: relative;    
+}
+
+h4 {
+    color:azure;
+    padding:10px;
+}
+.footer-box a {
+    color: springgreen;
+}

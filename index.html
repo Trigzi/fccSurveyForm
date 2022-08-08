@@ -1,67 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Gaming Platform Survey</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="styles.css" />
+    <title>Gaming Platform Survey</title>
   </head>
   <body>
     <h1 id="title">Gaming Platform Survey</h1> 
     <p id="description"> Please fill out the form to improve your gaming platform</p>
     <form id="survey-form">
-      <fieldset>
-        <label id="name-label">Name </label>
-        <input id="name" type="text" placeholder="Enter your name" required />
-        <label id="email-label">Email</label>
-        <input id="email" type="email" placeholder="Enter your Email" required />
-        <label id="number-label">Age</label>
-        <input id="number" type="number" min="10" Max="99" placeholder="Age" required />
-      </fieldset>
-      <fieldset>
-      <label>what type of a gamer are you?</label>
-      <select id="dropdown">
-        <option value="">(select one)</option>
-        <option value="1">Backseat Gamer</option>
-        <option value="2">Casual Gamer</option>
-        <option value="3">Hardcore Gamer</option>
-        <option value="4">Pro. Gamer</option>
-        <option value="5">Trophy Hunter</option>
-        <option value="6">I'm in my own league!!</option>
-      </select>
-      </fieldset>
-      <fieldset>
-      <label>What is your favorite Gaming Platform?</lable>
-      <label><input type="radio" name="platform" value="1" />PC</label>
-      <label><input type="radio" name="platform" value="2" />Playstation</label>
-      <label><input type="radio" name="platform" value="3" />XBox</label>
-      <label><input type="radio" name="platform" value="4" />Other</label>
-      </fieldset>
-      <fieldset>
-      <label>Why do you prefer your chosen gaming platform</label>
-      <select id="dropdown1">
-        <option value="">(select one)</option>
-        <option value="1">Better Graphics</option>
-        <option value="2">Better Community</option>
-        <option value="3">More Games</option>
-        <option value="4">Free Games</option>
-        <option value="5">Better Features</option>
-        <option value="6">other</option>
-      </select>
-      </fieldset>
-      <fieldset>
-      <label>Which game genres you like?</label>
-      <p>(check all that apply)</p>
-      <Label><input type="checkbox" value="1">First Person Shooter (FPS)</label>
-      <Label><input type="checkbox" value="2">Driving Sim</label>
-      <Label><input type="checkbox" value="3">RPG</label>
-      <Label><input type="checkbox" value="4">Puzzle</label>
-      <Label><input type="checkbox" value="5">MMORPG</label>
-      <Label><input type="checkbox" value="6">sports</label>
-      </fieldset>
-      <fieldset>
-      <Label>Anything you like to add about your platform?</label>
-      <textarea placeholder="Enter your comments here" cols="30" rows="3"></textarea>
-      </fieldset>
-      <button id="submit" type="submit">Submit</button>
+      <div class="form-container">
+        <fieldset>
+          <label id="name-label">Name </label>
+          <input id="name" type="text" placeholder="Enter your name" required />
+          <label id="email-label">Email</label>
+          <input id="email" type="email" placeholder="Enter your Email" required />
+          <label id="number-label">Age</label>
+          <input id="number" type="number" min="10" Max="99" placeholder="Age" required />
+        </fieldset>
+        <fieldset>
+          <label>what type of a gamer are you?</label>
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Backseat Gamer</option>
+            <option value="2">Casual Gamer</option>
+            <option value="3">Hardcore Gamer</option>
+            <option value="4">Pro. Gamer</option>
+            <option value="5">Trophy Hunter</option>
+            <option value="6">I'm in my own league!!</option>
+        </select>
+        </fieldset>
+        <fieldset>
+          <label>What is your favorite Gaming Platform?</lable>
+          <label><input type="radio" name="platform" value="1" />PC</label>
+          <label><input type="radio" name="platform" value="2" />Playstation</label>
+          <label><input type="radio" name="platform" value="3" />XBox</label>
+          <label><input type="radio" name="platform" value="4" />Other</label>
+        </fieldset>
+        <fieldset>
+          <label>Why do you prefer your chosen gaming platform</label>
+          <select id="dropdown1">
+            <option value="">(select one)</option>
+            <option value="1">Better Graphics</option>
+            <option value="2">Better Community</option>
+            <option value="3">More Games</option>
+            <option value="4">Free Games</option>
+            <option value="5">Better Features</option>
+            <option value="6">other</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <label>Which game genres you like?</label>
+          <p>(check all that apply)</p>
+          <Label><input type="checkbox" value="1">First Person Shooter (FPS)</label>
+          <Label><input type="checkbox" value="2">Driving Sim</label>
+          <Label><input type="checkbox" value="3">RPG</label>
+          <Label><input type="checkbox" value="4">Puzzle</label>
+          <Label><input type="checkbox" value="5">MMORPG</label>
+          <Label><input type="checkbox" value="6">sports</label>
+        </fieldset>
+        <fieldset>
+          <Label>Anything you like to add about your platform?</label>
+          <textarea placeholder="Enter your comments here" cols="40" rows="3"></textarea>
+        </fieldset>
+        <button id="submit" type="submit">Submit</button>
+      </div>
     </form>
+    <footer id="footer">
+      <div class="footer-box">
+       <h4>Visit my <a class="footer-link" target="_blank" href="https://github.com/Trigzi">GitHub</a> to see my other projects.</h4>
+       <h4>My GitHub Pages<a class="footer-link" target="_blank" href="https://trigzi.github.io/">trigzi.github.io</a>.</h4>
+       <h4>Photo by Lucie Liz from <a class="footer-link" target="_blank" href="https://www.pexels.com/photo/flatlay-of-gaming-equipments-3165335/">Pexels</a>.</h4>
+      </div>  
+    </footer>
   </body> 
 </html>
