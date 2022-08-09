@@ -1,8 +1,7 @@
 :root {
     background:  rgb(95, 88, 102) url("pexels-lucie-liz-3165335.jpg") no-repeat fixed center; /* set bg-color and img */
     background-blend-mode:screen; /* blend mode to screen*/
-
-   
+   background-size: cover;
 }
 body {                                         
     color:azure;
